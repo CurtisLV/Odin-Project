@@ -2,12 +2,9 @@ const moves = ['Rock', 'Paper', 'Scissors'];
 
 function computerPlay() {
     // Randomly returns Rock, Paper or Scissors
-
     // generate random number from 0 to 2
-    const randNumber = Math.floor(Math.random() * 3);
-
     // return array[randNumber]
-    return moves[randNumber];
+    return moves[Math.floor(Math.random() * 3)];
 }
 
 function getPlayerSelection() {
