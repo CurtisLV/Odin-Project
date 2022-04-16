@@ -69,39 +69,3 @@ function game(playerMove) {
             resultText.innerText + '\n Computer won the match!';
     }
 }
-
-// function game(playerMove) {
-//     // for loop till number of rounds
-
-//     const numRounds = document.querySelector('#times').value;
-//     let userPoints = 0;
-//     let compPoints = 0;
-
-//     for (i = 1; i <= numRounds; i++) {
-//         let compMove = computerPlay().toLowerCase();
-
-//         let result = playRound(playerMove, compMove);
-
-//         if (result === 'user') {
-//             console.log(
-//                 `You won game Nr. ${i}! ${playerMove} beats ${compMove}!`
-//             );
-//             userPoints++;
-//         } else if (result === 'comp') {
-//             console.log(
-//                 `Computer won game Nr. ${i}! ${compMove} beats ${playerMove}!`
-//             );
-//             compPoints++;
-//         } else if (result === 'tie') {
-//             console.log(`Game Nr. ${i} was a tie! Nobody gets a point.`);
-//         }
-//     }
-
-//     if (userPoints > compPoints) {
-//         console.log('You won the match!');
-//     } else if (userPoints < compPoints) {
-//         console.log('Computer won the match!');
-//     } else if (userPoints === compPoints) {
-//         console.log("It's a tie");
-//     }
-// }
