@@ -29,11 +29,33 @@ ul {
     align-items: center;
 }
 
+#logo {
+    max-width: 100%;
+    height: auto;
+    max-height: 100px;
+    margin: 16px;
+    filter: invert(62%) sepia(3%) saturate(1352%) hue-rotate(45deg)
+        brightness(119%) contrast(119%);
+}
+
 .hero {
     /*  */
     background-color: #1f2937;
     color: #f9faf8;
     display: flex;
+    padding: 32px;
+}
+
+.hero-right,
+.hero-left {
+    flex: 0 0 25em;
+    margin: 32px;
+    padding: 32px;
+}
+
+.hero-right img {
+    /* display: flex; */
+    height: 215px;
 }
 
 .information {
@@ -58,13 +80,4 @@ li {
 a {
     text-decoration: none;
     color: #e5e7eb;
-}
-
-#logo {
-    max-width: 100%;
-    height: auto;
-    max-height: 100px;
-    margin: 16px;
-    filter: invert(62%) sepia(3%) saturate(1352%) hue-rotate(45deg)
-        brightness(119%) contrast(119%);
 }
