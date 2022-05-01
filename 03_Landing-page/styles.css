@@ -1,0 +1,56 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+}
+
+.hero {
+    /*  */
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+.information {
+    /*  */
+}
+
+.quote {
+    /*  */
+    background-color: #e5e7eb;
+    font: italic 300 36px Roboto sans-serif;
+    color: #1f2937;
+}
+
+.signup {
+    /*  */
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+#logo {
+    max-width: 100%;
+    height: auto;
+    max-height: 100px;
+    margin: 16px;
+    filter: invert(62%) sepia(3%) saturate(1352%) hue-rotate(45deg)
+        brightness(119%) contrast(119%);
+}
