@@ -1,3 +1,8 @@
+body,
+html {
+    height: 100%;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     display: flex;
@@ -8,18 +13,27 @@ body {
 .header {
     background-color: #1f2937;
     display: flex;
-    align-items: center;
+    justify-content: space-between;
 }
 
-.links {
+.nav {
     display: flex;
-    flex-direction: row;
+}
+
+ul {
+    margin-right: 32px;
+    display: flex;
+    gap: 15px;
+    align-self: center;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .hero {
     /*  */
     background-color: #1f2937;
     color: #f9faf8;
+    display: flex;
 }
 
 .information {
