@@ -42,19 +42,40 @@ ul {
     /*  */
     background-color: #1f2937;
     color: #f9faf8;
+    padding: 7em 0;
     display: flex;
-    padding: 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
 }
 
-.hero-right,
-.hero-left {
-    flex: 0 0 25em;
+.hero .hero-left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     margin: 32px;
     padding: 32px;
 }
 
-.hero-right img {
-    /* display: flex; */
+.hero .hero-right {
+    flex-shrink: 0;
+    width: 50%;
+    margin: 32px;
+    padding: 32px;
+}
+
+/* .hero-right,
+.hero-left {
+    display: flex;
+    flex: 0 0 25em;
+
+} */
+
+.image {
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 215px;
 }
 
